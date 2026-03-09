@@ -139,7 +139,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="hidden lg:grid grid-cols-2 gap-4"
+            className="grid grid-cols-2 gap-4"
           >
             {[
               {
