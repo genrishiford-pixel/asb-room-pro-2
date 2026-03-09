@@ -142,7 +142,26 @@ export default function Hero() {
             className="hidden lg:grid grid-cols-2 gap-4"
           >
             {[
-              
+              {
+                image: "/images/cottegenew.jpg",
+                title: "Коттеджи под ключ",
+                desc: "Современные дома"
+              },
+              {
+                image: "/images/project-apartment.jpg",
+                title: "Квартиры",
+                desc: "Ремонт и отделка"
+              },
+              {
+                image: "/images/project-office.jpg",
+                title: "Бизнес-центры",
+                desc: "Офисные помещения"
+              },
+              {
+                image: "/images/project-restaurant.jpg",
+                title: "Рестораны",
+                desc: "Дизайн интерьера"
+              }
             ].map((item, index) => (
               <motion.div
                 key={index}
