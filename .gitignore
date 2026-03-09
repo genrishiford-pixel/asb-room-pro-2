@@ -1,0 +1,18 @@
+# Зависимости (никогда не коммитим!)
+node_modules/
+
+# Папки со сборкой (их генерирует React)
+dist/          # Для проектов на Vite
+build/         # Для Create React App
+
+# Файлы с секретами и локальными настройками
+.env
+.env.local
+
+# Системные файлы (Mac)
+.DS_Store
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
