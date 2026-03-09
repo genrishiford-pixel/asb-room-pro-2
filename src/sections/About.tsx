@@ -146,7 +146,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="grid sm:grid-cols-2 gap-4"
+            className="grid grid-cols-2 gap-4"
           >
             {advantages.map((advantage, index) => (
               <motion.div

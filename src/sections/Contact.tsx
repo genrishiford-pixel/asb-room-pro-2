@@ -260,7 +260,7 @@ export default function Contact() {
             className="space-y-8"
           >
             {/* Info Cards */}
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4">
               {contactInfo.map((item, index) => (
                 <motion.a
                   key={index}
